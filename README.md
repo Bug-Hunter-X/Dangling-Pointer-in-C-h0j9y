@@ -1,0 +1,1 @@
+This repository demonstrates a common C programming error: using a dangling pointer.  The code allocates memory, frees it, and then attempts to write to the freed memory location. This leads to undefined behavior, potentially crashing the program or corrupting data. The solution shows how to avoid this by setting the pointer to NULL after freeing the memory.
